@@ -1,0 +1,6 @@
+CI Install
+composer create-project codeigniter4/appstarter .
+
+Database Install
+composer require illuminate/database
+

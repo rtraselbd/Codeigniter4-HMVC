@@ -1,0 +1,578 @@
+CRITICAL - 2023-11-05 08:58:34 --> Call to undefined function App\Commands\pascalize()
+in APPPATH/Commands/Module.php on line 20.
+ 1 SYSTEMPATH/CLI/Commands.php(65): App\Commands\Module->run([...])
+ 2 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module', [...])
+ 3 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-11-05 09:22:28 --> Call to undefined function App\Commands\pascalize()
+in APPPATH/Commands/Module.php on line 26.
+ 1 SYSTEMPATH/CLI/Commands.php(65): App\Commands\Module->run([])
+ 2 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module', [])
+ 3 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-11-05 09:22:43 --> Undefined array key 0
+in APPPATH/Commands/ModuleCreate.php on line 79.
+ 1 APPPATH/Commands/ModuleCreate.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/Users/rtraselbd/Code/project/app/Commands/ModuleCreate.php', 79)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-11-05 09:22:59 --> Undefined array key 0
+in APPPATH/Commands/ModuleCreate.php on line 79.
+ 1 APPPATH/Commands/ModuleCreate.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/Users/rtraselbd/Code/project/app/Commands/ModuleCreate.php', 79)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module1:create', [])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-11-05 09:23:23 --> mkdir(): No such file or directory
+in APPPATH/Commands/ModuleCreate.php on line 95.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', '/Users/rtraselbd/Code/project/app/Commands/ModuleCreate.php', 95)
+ 2 APPPATH/Commands/ModuleCreate.php(95): mkdir('/Users/rtraselbd/Code/project/app/Modules/Admin')
+ 3 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 4 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module1:create', [...])
+ 5 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:10:12 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 105.
+ 1 APPPATH/Commands/ModuleCreate.php(105): ucfirst(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:10:12 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 109.
+ 1 APPPATH/Commands/ModuleCreate.php(109): strtolower(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:10:49 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 105.
+ 1 APPPATH/Commands/ModuleCreate.php(105): ucfirst(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:10:49 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 109.
+ 1 APPPATH/Commands/ModuleCreate.php(109): strtolower(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:11:31 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 105.
+ 1 APPPATH/Commands/ModuleCreate.php(105): ucfirst(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:11:31 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 109.
+ 1 APPPATH/Commands/ModuleCreate.php(109): strtolower(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:16:08 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 105.
+ 1 APPPATH/Commands/ModuleCreate.php(105): ucfirst(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+WARNING - 2023-11-05 11:16:20 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Commands/ModuleCreate.php on line 105.
+ 1 APPPATH/Commands/ModuleCreate.php(105): ucfirst(null)
+ 2 SYSTEMPATH/CLI/Commands.php(65): App\Commands\ModuleCreate->run([...])
+ 3 SYSTEMPATH/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('module:create', [...])
+ 4 ROOTPATH/spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-11-05 11:21:50 --> SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected (Connection: default, SQL: select * from `admins`)
+in VENDORPATH/illuminate/database/Connection.php on line 822.
+ 1 VENDORPATH/illuminate/database/Connection.php(776): Illuminate\Database\Connection->runQueryCallback('select * from `admins`', [], Object(Closure))
+ 2 VENDORPATH/illuminate/database/Connection.php(424): Illuminate\Database\Connection->run('select * from `admins`', [], Object(Closure))
+ 3 VENDORPATH/illuminate/database/Query/Builder.php(2752): Illuminate\Database\Connection->select('select * from `admins`', [], true)
+ 4 VENDORPATH/illuminate/database/Query/Builder.php(2740): Illuminate\Database\Query\Builder->runSelect()
+ 5 VENDORPATH/illuminate/database/Query/Builder.php(3294): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+ 6 VENDORPATH/illuminate/database/Query/Builder.php(2741): Illuminate\Database\Query\Builder->onceWithColumns([...], Object(Closure))
+ 7 VENDORPATH/illuminate/database/Eloquent/Builder.php(737): Illuminate\Database\Query\Builder->get([...])
+ 8 VENDORPATH/illuminate/database/Eloquent/Builder.php(721): Illuminate\Database\Eloquent\Builder->getModels([...])
+ 9 VENDORPATH/illuminate/database/Eloquent/Model.php(675): Illuminate\Database\Eloquent\Builder->get([...])
+10 APPPATH/Modules/Admin/Controllers/AdminController.php(14): Illuminate\Database\Eloquent\Model::all()
+11 SYSTEMPATH/CodeIgniter.php(942): App\Modules\Admin\Controllers\AdminController->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\AdminController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-05 11:24:04 --> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.admins' doesn't exist (Connection: default, SQL: select * from `admins`)
+in VENDORPATH/illuminate/database/Connection.php on line 822.
+ 1 VENDORPATH/illuminate/database/Connection.php(776): Illuminate\Database\Connection->runQueryCallback('select * from `admins`', [], Object(Closure))
+ 2 VENDORPATH/illuminate/database/Connection.php(424): Illuminate\Database\Connection->run('select * from `admins`', [], Object(Closure))
+ 3 VENDORPATH/illuminate/database/Query/Builder.php(2752): Illuminate\Database\Connection->select('select * from `admins`', [], true)
+ 4 VENDORPATH/illuminate/database/Query/Builder.php(2740): Illuminate\Database\Query\Builder->runSelect()
+ 5 VENDORPATH/illuminate/database/Query/Builder.php(3294): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+ 6 VENDORPATH/illuminate/database/Query/Builder.php(2741): Illuminate\Database\Query\Builder->onceWithColumns([...], Object(Closure))
+ 7 VENDORPATH/illuminate/database/Eloquent/Builder.php(737): Illuminate\Database\Query\Builder->get([...])
+ 8 VENDORPATH/illuminate/database/Eloquent/Builder.php(721): Illuminate\Database\Eloquent\Builder->getModels([...])
+ 9 VENDORPATH/illuminate/database/Eloquent/Model.php(675): Illuminate\Database\Eloquent\Builder->get([...])
+10 APPPATH/Modules/Admin/Controllers/AdminController.php(14): Illuminate\Database\Eloquent\Model::all()
+11 SYSTEMPATH/CodeIgniter.php(942): App\Modules\Admin\Controllers\AdminController->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\AdminController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-05 11:24:25 --> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.admins' doesn't exist (Connection: default, SQL: select * from `admins`)
+in VENDORPATH/illuminate/database/Connection.php on line 822.
+ 1 VENDORPATH/illuminate/database/Connection.php(776): Illuminate\Database\Connection->runQueryCallback('select * from `admins`', [], Object(Closure))
+ 2 VENDORPATH/illuminate/database/Connection.php(424): Illuminate\Database\Connection->run('select * from `admins`', [], Object(Closure))
+ 3 VENDORPATH/illuminate/database/Query/Builder.php(2752): Illuminate\Database\Connection->select('select * from `admins`', [], true)
+ 4 VENDORPATH/illuminate/database/Query/Builder.php(2740): Illuminate\Database\Query\Builder->runSelect()
+ 5 VENDORPATH/illuminate/database/Query/Builder.php(3294): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+ 6 VENDORPATH/illuminate/database/Query/Builder.php(2741): Illuminate\Database\Query\Builder->onceWithColumns([...], Object(Closure))
+ 7 VENDORPATH/illuminate/database/Eloquent/Builder.php(737): Illuminate\Database\Query\Builder->get([...])
+ 8 VENDORPATH/illuminate/database/Eloquent/Builder.php(721): Illuminate\Database\Eloquent\Builder->getModels([...])
+ 9 VENDORPATH/illuminate/database/Eloquent/Model.php(675): Illuminate\Database\Eloquent\Builder->get([...])
+10 APPPATH/Modules/Admin/Controllers/AdminController.php(14): Illuminate\Database\Eloquent\Model::all()
+11 SYSTEMPATH/CodeIgniter.php(942): App\Modules\Admin\Controllers\AdminController->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\AdminController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-05 11:24:57 --> Property [data] does not exist on this collection instance.
+in VENDORPATH/illuminate/collections/Traits/EnumeratesValues.php on line 1003.
+ 1 APPPATH/Views/template/layout.php(3): Illuminate\Support\Collection->__get('data')
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/rtraselbd/Code/project/app/Views/template/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('template/layout', [], true)
+ 5 APPPATH/Modules/User/Controllers/UserController.php(17): view('template/layout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-05 11:25:27 --> Property [username] does not exist on this collection instance.
+in VENDORPATH/illuminate/collections/Traits/EnumeratesValues.php on line 1003.
+ 1 APPPATH/Views/template/layout.php(3): Illuminate\Support\Collection->__get('username')
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/rtraselbd/Code/project/app/Views/template/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('template/layout', [], true)
+ 5 APPPATH/Modules/User/Controllers/UserController.php(17): view('template/layout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-05 12:22:03 --> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.admins' doesn't exist (Connection: default, SQL: select * from `admins`)
+in VENDORPATH/illuminate/database/Connection.php on line 822.
+ 1 VENDORPATH/illuminate/database/Connection.php(776): Illuminate\Database\Connection->runQueryCallback('select * from `admins`', [], Object(Closure))
+ 2 VENDORPATH/illuminate/database/Connection.php(424): Illuminate\Database\Connection->run('select * from `admins`', [], Object(Closure))
+ 3 VENDORPATH/illuminate/database/Query/Builder.php(2752): Illuminate\Database\Connection->select('select * from `admins`', [], true)
+ 4 VENDORPATH/illuminate/database/Query/Builder.php(2740): Illuminate\Database\Query\Builder->runSelect()
+ 5 VENDORPATH/illuminate/database/Query/Builder.php(3294): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+ 6 VENDORPATH/illuminate/database/Query/Builder.php(2741): Illuminate\Database\Query\Builder->onceWithColumns([...], Object(Closure))
+ 7 VENDORPATH/illuminate/database/Eloquent/Builder.php(737): Illuminate\Database\Query\Builder->get([...])
+ 8 VENDORPATH/illuminate/database/Eloquent/Builder.php(721): Illuminate\Database\Eloquent\Builder->getModels([...])
+ 9 VENDORPATH/illuminate/database/Eloquent/Model.php(675): Illuminate\Database\Eloquent\Builder->get([...])
+10 APPPATH/Modules/Admin/Controllers/AdminController.php(14): Illuminate\Database\Eloquent\Model::all()
+11 SYSTEMPATH/CodeIgniter.php(942): App\Modules\Admin\Controllers\AdminController->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\AdminController))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:01:19 --> Class "App\Errors" not found
+in SYSTEMPATH/CodeIgniter.php on line 914.
+ 1 SYSTEMPATH/CodeIgniter.php(970): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH/CodeIgniter.php(370): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-05 16:18:47 --> mysqli_sql_exception: Table 'users' already exists in /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('CREATE TABLE `u...', 0)
+#1 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 /Users/rtraselbd/Code/project/vendor/codeigniter4/shield/src/Database/Migrations/2020-12-28-223112_create_auth_tables.php(178): CodeIgniter\Database\Forge->createTable('users', false, Array)
+#5 /Users/rtraselbd/Code/project/vendor/codeigniter4/shield/src/Database/Migrations/2020-12-28-223112_create_auth_tables.php(51): CodeIgniter\Shield\Database\Migrations\CreateAuthTables->createTable('users')
+#6 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(873): CodeIgniter\Shield\Database\Migrations\CreateAuthTables->up()
+#7 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#8 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 /Users/rtraselbd/Code/project/vendor/codeigniter4/shield/src/Commands/Setup.php(412): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 /Users/rtraselbd/Code/project/vendor/codeigniter4/shield/src/Commands/Setup.php(88): CodeIgniter\Shield\Commands\Setup->runMigrations()
+#11 /Users/rtraselbd/Code/project/vendor/codeigniter4/shield/src/Commands/Setup.php(73): CodeIgniter\Shield\Commands\Setup->publishConfig()
+#12 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Shield\Commands\Setup->run(Array)
+#13 /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('shield:setup', Array)
+#14 /Users/rtraselbd/Code/project/spark(102): CodeIgniter\CLI\Console->run()
+#15 {main}
+INFO - 2023-11-05 16:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:48:49 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 768.
+ 1 SYSTEMPATH/BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(256): CodeIgniter\Model->insert(Object(App\Models\User), false)
+ 4 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Shield\Models\UserModel->insert(Object(App\Models\User), false)
+ 5 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(318): CodeIgniter\BaseModel->save(Object(App\Models\User))
+ 6 APPPATH/Controllers/Home.php(20): CodeIgniter\Shield\Models\UserModel->save(Object(App\Models\User))
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:50:09 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 768.
+ 1 SYSTEMPATH/BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(256): CodeIgniter\Model->insert(Object(App\Models\User), false)
+ 4 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Shield\Models\UserModel->insert(Object(App\Models\User), false)
+ 5 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(318): CodeIgniter\BaseModel->save(Object(App\Models\User))
+ 6 APPPATH/Controllers/Home.php(20): CodeIgniter\Shield\Models\UserModel->save(Object(App\Models\User))
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:52:06 --> Class "Config\App\Model\User" not found
+in VENDORPATH/codeigniter4/shield/src/Auth.php on line 158.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Shield\Auth->getProvider()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:52:22 --> Class "App\Model\User" not found
+in VENDORPATH/codeigniter4/shield/src/Auth.php on line 158.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Shield\Auth->getProvider()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 16:53:33 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 768.
+ 1 SYSTEMPATH/BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(256): CodeIgniter\Model->insert(Object(App\Models\User), false)
+ 4 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Shield\Models\UserModel->insert(Object(App\Models\User), false)
+ 5 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(318): CodeIgniter\BaseModel->save(Object(App\Models\User))
+ 6 APPPATH/Controllers/Home.php(21): CodeIgniter\Shield\Models\UserModel->save(Object(App\Models\User))
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 16:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 16:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:06:05 --> Cannot use object of type CodeIgniter\Shield\Entities\User as array
+in APPPATH/Controllers/Home.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:07:38 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1752.
+ 1 SYSTEMPATH/BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray('Rasel', 'insert')
+ 2 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert('Rasel', false)
+ 3 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(256): CodeIgniter\Model->insert('Rasel', false)
+ 4 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Shield\Models\UserModel->insert('Rasel', false)
+ 5 VENDORPATH/codeigniter4/shield/src/Models/UserModel.php(318): CodeIgniter\BaseModel->save('Rasel')
+ 6 APPPATH/Controllers/Home.php(19): CodeIgniter\Shield\Models\UserModel->save('Rasel')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:11:50 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:11:52 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:11:58 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:11:58 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:12:03 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:12:04 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:12:04 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:12:05 --> Class "App\Controllers\User" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:50:46 --> Attempt to read property "email" on null
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:52:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(184): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(563): CodeIgniter\Model->doFind(true, 1)
+ 4 APPPATH/Controllers/Home.php(12): CodeIgniter\BaseModel->find(1)
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:52:53 --> Attempt to read property "email" on array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:53:11 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:53:31 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:54:50 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Models/User.php on line 29.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/rtraselbd/Code/project/app/Models/User.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+ 3 APPPATH/Controllers/Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:54:56 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:55:10 --> Undefined property: stdClass::$email
+in APPPATH/Controllers/Home.php on line 14.
+ 1 APPPATH/Controllers/Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 17:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:55:30 --> Undefined property: stdClass::$profile
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 17:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 17:56:57 --> Undefined property: stdClass::$profile
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 18:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 18:06:25 --> Undefined property: stdClass::$profile
+in APPPATH/Controllers/Home.php on line 13.
+ 1 APPPATH/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$profile', '/Users/rtraselbd/Code/project/app/Controllers/Home.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 18:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 18:10:36 --> App\Models\User::profile must return a relationship instance.
+in VENDORPATH/illuminate/database/Eloquent/Concerns/HasAttributes.php on line 586.
+ 1 VENDORPATH/illuminate/database/Eloquent/Concerns/HasAttributes.php(529): Illuminate\Database\Eloquent\Model->getRelationshipFromMethod('profile')
+ 2 VENDORPATH/illuminate/database/Eloquent/Concerns/HasAttributes.php(454): Illuminate\Database\Eloquent\Model->getRelationValue('profile')
+ 3 VENDORPATH/illuminate/database/Eloquent/Model.php(2226): Illuminate\Database\Eloquent\Model->getAttribute('profile')
+ 4 APPPATH/Controllers/Home.php(13): Illuminate\Database\Eloquent\Model->__get('profile')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 18:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 18:13:44 --> Cannot assign App\Models\User to property CodeIgniter\Shield\Auth::$userProvider of type ?CodeIgniter\Shield\Models\UserModel
+in VENDORPATH/codeigniter4/shield/src/Auth.php on line 158.
+ 1 VENDORPATH/codeigniter4/shield/src/Auth.php(59): CodeIgniter\Shield\Auth->getProvider()
+ 2 VENDORPATH/codeigniter4/shield/src/Auth.php(83): CodeIgniter\Shield\Auth->ensureAuthentication()
+ 3 VENDORPATH/codeigniter4/shield/src/Collectors/Auth.php(59): CodeIgniter\Shield\Auth->getAuthenticator()
+ 4 SYSTEMPATH/Debug/Toolbar/Collectors/BaseCollector.php(225): CodeIgniter\Shield\Collectors\Auth->getTitleDetails()
+ 5 SYSTEMPATH/Debug/Toolbar.php(93): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+ 6 SYSTEMPATH/Debug/Toolbar.php(370): CodeIgniter\Debug\Toolbar->run(1699208024.71633, 0.0177, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(42): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(213): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/CodeIgniter.php(522): CodeIgniter\Filters\Filters->run('', 'after')
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 18:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 18:14:20 --> Cannot assign App\Models\User to property CodeIgniter\Shield\Auth::$userProvider of type ?CodeIgniter\Shield\Models\UserModel
+in VENDORPATH/codeigniter4/shield/src/Auth.php on line 158.
+ 1 VENDORPATH/codeigniter4/shield/src/Auth.php(59): CodeIgniter\Shield\Auth->getProvider()
+ 2 VENDORPATH/codeigniter4/shield/src/Auth.php(83): CodeIgniter\Shield\Auth->ensureAuthentication()
+ 3 VENDORPATH/codeigniter4/shield/src/Collectors/Auth.php(59): CodeIgniter\Shield\Auth->getAuthenticator()
+ 4 SYSTEMPATH/Debug/Toolbar/Collectors/BaseCollector.php(225): CodeIgniter\Shield\Collectors\Auth->getTitleDetails()
+ 5 SYSTEMPATH/Debug/Toolbar.php(93): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+ 6 SYSTEMPATH/Debug/Toolbar.php(370): CodeIgniter\Debug\Toolbar->run(1699208060.01649, 0.0133, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(42): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(213): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/CodeIgniter.php(522): CodeIgniter\Filters\Filters->run('', 'after')
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 18:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-05 18:17:29 --> Property [profile] does not exist on this collection instance.
+in VENDORPATH/illuminate/collections/Traits/EnumeratesValues.php on line 1003.
+ 1 APPPATH/Controllers/Home.php(12): Illuminate\Support\Collection->__get('profile')
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-05 18:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-05 18:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,574 @@
+INFO - 2023-11-10 14:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 15:22:38 --> "App\Filters\Tanant" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH/Filters/Filters.php on line 180.
+ 1 SYSTEMPATH/Filters/Filters.php(180): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Filters\\Tanant')
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-10 15:33:41 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::setVar()
+in APPPATH/Filters/Tanant.php on line 33.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Tanant->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 15:41:13 --> Undefined variable $tenantId
+in APPPATH/Modules/User/Views/user.php on line 5.
+ 1 APPPATH/Modules/User/Views/user.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenantId', '/Users/rtraselbd/Code/project/app/Modules/User/Views/user.php', 5)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/rtraselbd/Code/project/app/Modules/User/Views/user.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('App\\Modules\\User\\Views\\user', [], true)
+ 5 APPPATH/Views/template/layout.php(3): view('App\\Modules\\User\\Views\\user')
+ 6 SYSTEMPATH/View/View.php(228): include('/Users/rtraselbd/Code/project/app/Views/template/layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('template/layout', [], true)
+ 9 APPPATH/Modules/User/Controllers/UserController.php(17): view('template/layout', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-10 15:46:22 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::withAttribute()
+in APPPATH/Filters/Tanant.php on line 34.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Tanant->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-10 15:48:17 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::withAttribute()
+in APPPATH/Filters/Tanant.php on line 35.
+ 1 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Tanant->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 15:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:00:47 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getGlobal()
+in APPPATH/Modules/User/Controllers/UserController.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:03:17 --> Too few arguments to function App\Modules\User\Controllers\UserController::index(), 0 passed in /Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH/Modules/User/Controllers/UserController.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:03:27 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getGlobal()
+in APPPATH/Modules/User/Controllers/UserController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:04:44 --> foreach() argument must be of type array|object, int given
+in SYSTEMPATH/HTTP/RequestTrait.php on line 260.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', '/Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php', 260)
+ 2 APPPATH/Modules/User/Controllers/UserController.php(13): CodeIgniter\HTTP\Request->fetchGlobal('tenant_id')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:13:26 --> foreach() argument must be of type array|object, int given
+in SYSTEMPATH/HTTP/RequestTrait.php on line 260.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', '/Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php', 260)
+ 2 APPPATH/Modules/User/Controllers/UserController.php(13): CodeIgniter\HTTP\Request->fetchGlobal('get')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:15:31 --> foreach() argument must be of type array|object, int given
+in SYSTEMPATH/HTTP/RequestTrait.php on line 260.
+ 1 SYSTEMPATH/HTTP/RequestTrait.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', '/Users/rtraselbd/Code/project/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php', 260)
+ 2 APPPATH/Modules/User/Controllers/UserController.php(14): CodeIgniter\HTTP\Request->fetchGlobal('tenant')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:28:26 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$tenant_id
+in APPPATH/Modules/User/Models/User.php on line 14.
+ 1 APPPATH/Modules/User/Models/User.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$tenant_id', '/Users/rtraselbd/Code/project/app/Modules/User/Models/User.php', 14)
+ 2 VENDORPATH/illuminate/database/Eloquent/Builder.php(1360): App\Modules\User\Models\User::App\Modules\User\Models\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+ 3 VENDORPATH/illuminate/database/Eloquent/Builder.php(1394): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+ 4 VENDORPATH/illuminate/database/Eloquent/Builder.php(1369): Illuminate\Database\Eloquent\Builder->callScope(Object(Closure))
+ 5 VENDORPATH/illuminate/database/Eloquent/Builder.php(716): Illuminate\Database\Eloquent\Builder->applyScopes()
+ 6 VENDORPATH/illuminate/database/Concerns/BuildsQueries.php(333): Illuminate\Database\Eloquent\Builder->get([...])
+ 7 VENDORPATH/illuminate/database/Eloquent/Builder.php(670): Illuminate\Database\Eloquent\Builder->first([...])
+ 8 APPPATH/Filters/Tanant.php(32): Illuminate\Database\Eloquent\Builder->value('id')
+ 9 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Tanant->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+10 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+CRITICAL - 2023-11-10 16:29:11 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$tenant_id
+in APPPATH/Modules/User/Models/User.php on line 14.
+ 1 APPPATH/Modules/User/Models/User.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$tenant_id', '/Users/rtraselbd/Code/project/app/Modules/User/Models/User.php', 14)
+ 2 VENDORPATH/illuminate/database/Eloquent/Builder.php(1360): App\Modules\User\Models\User::App\Modules\User\Models\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+ 3 VENDORPATH/illuminate/database/Eloquent/Builder.php(1394): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+ 4 VENDORPATH/illuminate/database/Eloquent/Builder.php(1369): Illuminate\Database\Eloquent\Builder->callScope(Object(Closure))
+ 5 VENDORPATH/illuminate/database/Eloquent/Builder.php(716): Illuminate\Database\Eloquent\Builder->applyScopes()
+ 6 VENDORPATH/illuminate/database/Concerns/BuildsQueries.php(333): Illuminate\Database\Eloquent\Builder->get([...])
+ 7 VENDORPATH/illuminate/database/Eloquent/Builder.php(670): Illuminate\Database\Eloquent\Builder->first([...])
+ 8 APPPATH/Filters/Tanant.php(32): Illuminate\Database\Eloquent\Builder->value('id')
+ 9 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Tanant->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+10 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 16:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:46:44 --> Access to undeclared static property App\Modules\User\Models\User::$rt
+in APPPATH/Modules/User/Models/User.php on line 17.
+ 1 VENDORPATH/illuminate/database/Eloquent/Model.php(258): App\Modules\User\Models\User::booted()
+ 2 VENDORPATH/illuminate/database/Eloquent/Model.php(235): Illuminate\Database\Eloquent\Model->bootIfNotBooted()
+ 3 VENDORPATH/illuminate/database/Eloquent/Model.php(2346): Illuminate\Database\Eloquent\Model->__construct()
+ 4 APPPATH/Filters/Tanant.php(32): Illuminate\Database\Eloquent\Model::__callStatic('where', [...])
+ 5 SYSTEMPATH/Filters/Filters.php(186): App\Filters\Tanant->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('user', 'before')
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 17:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:00:29 --> Non-static method App\Modules\User\Models\User::find() cannot be called statically
+in APPPATH/Modules/User/Models/User.php on line 24.
+ 1 VENDORPATH/illuminate/database/Eloquent/Model.php(258): App\Modules\User\Models\User::booted()
+ 2 VENDORPATH/illuminate/database/Eloquent/Model.php(235): Illuminate\Database\Eloquent\Model->bootIfNotBooted()
+ 3 VENDORPATH/illuminate/database/Eloquent/Model.php(1474): Illuminate\Database\Eloquent\Model->__construct()
+ 4 VENDORPATH/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Model::query()
+ 5 APPPATH/Modules/User/Controllers/UserController.php(11): Illuminate\Database\Eloquent\Model::all()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 17:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:00:48 --> Using $this when not in object context
+in APPPATH/Modules/User/Models/User.php on line 11.
+ 1 APPPATH/Modules/User/Models/User.php(24): App\Modules\User\Models\User::find(1)
+ 2 VENDORPATH/illuminate/database/Eloquent/Model.php(258): App\Modules\User\Models\User::booted()
+ 3 VENDORPATH/illuminate/database/Eloquent/Model.php(235): Illuminate\Database\Eloquent\Model->bootIfNotBooted()
+ 4 VENDORPATH/illuminate/database/Eloquent/Model.php(1474): Illuminate\Database\Eloquent\Model->__construct()
+ 5 VENDORPATH/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Model::query()
+ 6 APPPATH/Modules/User/Controllers/UserController.php(11): Illuminate\Database\Eloquent\Model::all()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 17:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:01:03 --> Too few arguments to function App\Modules\User\Models\User::App\Modules\User\Models\{closure}(), 1 passed in /Users/rtraselbd/Code/project/vendor/illuminate/database/Eloquent/Builder.php on line 1360 and exactly 2 expected
+in APPPATH/Modules/User/Models/User.php on line 26.
+ 1 VENDORPATH/illuminate/database/Eloquent/Builder.php(1360): App\Modules\User\Models\User::App\Modules\User\Models\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+ 2 VENDORPATH/illuminate/database/Eloquent/Builder.php(1394): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+ 3 VENDORPATH/illuminate/database/Eloquent/Builder.php(1369): Illuminate\Database\Eloquent\Builder->callScope(Object(Closure))
+ 4 VENDORPATH/illuminate/database/Eloquent/Builder.php(716): Illuminate\Database\Eloquent\Builder->applyScopes()
+ 5 VENDORPATH/illuminate/database/Eloquent/Model.php(675): Illuminate\Database\Eloquent\Builder->get([...])
+ 6 APPPATH/Modules/User/Controllers/UserController.php(11): Illuminate\Database\Eloquent\Model::all()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 18:21:09 --> Object of type CodeIgniter\HTTP\IncomingRequest is not callable
+in APPPATH/Controllers/BaseController.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 18:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 18:29:37 --> Database connection [default] not configured.
+in VENDORPATH/illuminate/database/DatabaseManager.php on line 173.
+ 1 VENDORPATH/illuminate/database/DatabaseManager.php(136): Illuminate\Database\DatabaseManager->configuration('default')
+ 2 VENDORPATH/illuminate/database/DatabaseManager.php(101): Illuminate\Database\DatabaseManager->makeConnection('default')
+ 3 VENDORPATH/illuminate/database/Eloquent/Model.php(1819): Illuminate\Database\DatabaseManager->connection('default')
+ 4 VENDORPATH/illuminate/database/Eloquent/Model.php(1785): Illuminate\Database\Eloquent\Model::resolveConnection(null)
+ 5 VENDORPATH/illuminate/database/Eloquent/Model.php(1576): Illuminate\Database\Eloquent\Model->getConnection()
+ 6 VENDORPATH/illuminate/database/Eloquent/Model.php(1495): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+ 7 VENDORPATH/illuminate/database/Eloquent/Model.php(1531): Illuminate\Database\Eloquent\Model->newModelQuery()
+ 8 VENDORPATH/illuminate/database/Eloquent/Model.php(1484): Illuminate\Database\Eloquent\Model->newQueryWithoutScopes()
+ 9 VENDORPATH/illuminate/database/Eloquent/Model.php(1474): Illuminate\Database\Eloquent\Model->newQuery()
+10 VENDORPATH/illuminate/database/Eloquent/Model.php(674): Illuminate\Database\Eloquent\Model::query()
+11 APPPATH/Modules/User/Controllers/UserController.php(11): Illuminate\Database\Eloquent\Model::all()
+12 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+13 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+16 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 18:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 18:47:16 --> "tanant" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 354.
+ 1 SYSTEMPATH/Filters/Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('tanant')
+ 2 SYSTEMPATH/CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilter('tanant', 'before')
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/project/public/index.php')
+INFO - 2023-11-10 18:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 18:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 19:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 19:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 19:30:08 --> Call to a member function getHost() on string
+in APPPATH/Config/Tenancy.php on line 34.
+ 1 APPPATH/Config/Tenancy.php(18): Config\Tenancy->getTenancyData(Object(App\Models\TenancyModel))
+ 2 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 3 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 5 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 6 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 7 APPPATH/Config/Events.php(59): service('eloquent')
+ 8 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 19:30:19 --> Call to a member function getHost() on string
+in APPPATH/Config/Tenancy.php on line 34.
+ 1 APPPATH/Config/Tenancy.php(18): Config\Tenancy->getTenancyData(Object(App\Models\TenancyModel))
+ 2 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 3 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 5 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 6 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 7 APPPATH/Config/Events.php(59): service('eloquent')
+ 8 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 9 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+12 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 19:33:24 --> Too few arguments to function Config\Tenancy::__construct(), 0 passed in /Users/rtraselbd/Code/subdomain.project/app/Config/Eloquent.php on line 14 and exactly 1 expected
+in APPPATH/Config/Tenancy.php on line 15.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 19:59:51 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Config/Tenancy.php on line 61.
+ 1 APPPATH/Config/Tenancy.php(61): in_array('subdomain.project.test', null, true)
+ 2 APPPATH/Config/Tenancy.php(36): Config\Tenancy->makeSubdomain('subdomain.project.test')
+ 3 APPPATH/Config/Tenancy.php(18): Config\Tenancy->getTenancyData(Object(App\Models\TenancyModel))
+ 4 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 5 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 6 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 7 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 8 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 9 APPPATH/Config/Events.php(59): service('eloquent')
+10 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:00:37 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH/Config/Tenancy.php on line 61.
+ 1 APPPATH/Config/Tenancy.php(61): in_array('subdomain.project.test', null, true)
+ 2 APPPATH/Config/Tenancy.php(36): Config\Tenancy->makeSubdomain('subdomain.project.test')
+ 3 APPPATH/Config/Tenancy.php(18): Config\Tenancy->getTenancyData(Object(App\Models\TenancyModel))
+ 4 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 5 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 6 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 7 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 8 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 9 APPPATH/Config/Events.php(59): service('eloquent')
+10 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:14:22 --> Attempt to read property "domain" on null
+in APPPATH/Config/Eloquent.php on line 18.
+ 1 APPPATH/Config/Eloquent.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "domain" on null', '/Users/rtraselbd/Code/subdomain.project/app/Config/Eloquent.php', 18)
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:17:03 --> Test
+in APPPATH/Config/Tenancy.php on line 21.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:17:28 --> Test
+in APPPATH/Config/Tenancy.php on line 21.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:18:24 --> Tenant is not exist.
+in APPPATH/Config/Tenancy.php on line 21.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:18:46 --> Tenant is not exist.
+in APPPATH/Config/Tenancy.php on line 21.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:20:01 --> Tenant is not exist.
+in APPPATH/Config/Tenancy.php on line 21.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+INFO - 2023-11-10 20:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 20:25:46 --> $key must contain both the class and field name, i.e. Foo.bar
+in VENDORPATH/codeigniter4/settings/src/Settings.php on line 141.
+ 1 VENDORPATH/codeigniter4/settings/src/Settings.php(153): CodeIgniter\Settings\Settings->parseDotSyntax('central_domains')
+ 2 VENDORPATH/codeigniter4/settings/src/Settings.php(55): CodeIgniter\Settings\Settings->prepareClassAndProperty('central_domains')
+ 3 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(25): CodeIgniter\Settings\Settings->get('central_domains')
+ 4 APPPATH/Config/Tenancy.php(18): setting('central_domains')
+ 5 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 6 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 7 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 8 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 9 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+10 APPPATH/Config/Events.php(59): service('eloquent')
+11 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+12 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:41:01 --> $key must contain both the class and field name, i.e. Foo.bar
+in VENDORPATH/codeigniter4/settings/src/Settings.php on line 141.
+ 1 VENDORPATH/codeigniter4/settings/src/Settings.php(153): CodeIgniter\Settings\Settings->parseDotSyntax('central_domains')
+ 2 VENDORPATH/codeigniter4/settings/src/Settings.php(81): CodeIgniter\Settings\Settings->prepareClassAndProperty('central_domains')
+ 3 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(29): CodeIgniter\Settings\Settings->set('central_domains', '"uddoktapay.com"')
+ 4 APPPATH/Config/Tenancy.php(18): setting('central_domains', '"uddoktapay.com"')
+ 5 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 6 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 7 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 8 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 9 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+10 APPPATH/Config/Events.php(59): service('eloquent')
+11 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+12 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:41:24 --> Call to undefined function Config\get_option()
+in APPPATH/Config/Tenancy.php on line 18.
+ 1 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 2 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 4 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+ 5 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+ 6 APPPATH/Config/Events.php(59): service('eloquent')
+ 7 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 8 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+ERROR - 2023-11-10 20:44:01 --> mysqli_sql_exception: Unknown column 'deleted' in 'where clause' in /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /Users/rtraselbd/Code/subdomain.project/app/Models/OptionModel.php(13): CodeIgniter\BaseModel->first()
+#7 /Users/rtraselbd/Code/subdomain.project/app/Helpers/options_helper.php(14): App\Models\OptionModel->get_options('central_domains')
+#8 /Users/rtraselbd/Code/subdomain.project/app/Config/Tenancy.php(18): get_option('central_domains', '"uddoktapay.com...')
+#9 /Users/rtraselbd/Code/subdomain.project/app/Config/Eloquent.php(14): Config\Tenancy->__construct()
+#10 /Users/rtraselbd/Code/subdomain.project/app/Config/Services.php(38): Config\Eloquent->__construct()
+#11 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Config/BaseService.php(199): Config\Services::eloquent(false)
+#12 /Users/rtraselbd/Code/subdomain.project/app/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+#13 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Common.php(1022): Config\Services::eloquent()
+#14 /Users/rtraselbd/Code/subdomain.project/app/Config/Events.php(59): service('eloquent')
+#15 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+#16 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+#17 /Users/rtraselbd/Code/subdomain.project/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 /Users/rtraselbd/Code/subdomain.project/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#19 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselb...')
+#20 {main}
+CRITICAL - 2023-11-10 20:44:01 --> Unknown column 'deleted' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `options`
+WHERE `name` = :name:
+AND `deleted` = :deleted:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/OptionModel.php(13): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Helpers/options_helper.php(14): App\Models\OptionModel->get_options('central_domains')
+ 6 APPPATH/Config/Tenancy.php(18): get_option('central_domains', '"uddoktapay.com"')
+ 7 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 8 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 9 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+10 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+11 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+12 APPPATH/Config/Events.php(59): service('eloquent')
+13 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+14 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+15 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+17 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+CRITICAL - 2023-11-10 20:44:21 --> Allowed fields must be specified for model: "App\Models\OptionModel"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\OptionModel')
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Helpers/options_helper.php(16): CodeIgniter\Model->insert([...])
+ 5 APPPATH/Config/Tenancy.php(18): get_option('central_domains', '"uddoktapay.com"')
+ 6 APPPATH/Config/Eloquent.php(14): Config\Tenancy->__construct()
+ 7 APPPATH/Config/Services.php(38): Config\Eloquent->__construct()
+ 8 SYSTEMPATH/Config/BaseService.php(199): Config\Services::eloquent(false)
+ 9 APPPATH/Config/Services.php(36): CodeIgniter\Config\BaseService::getSharedInstance('eloquent')
+10 SYSTEMPATH/Common.php(1022): Config\Services::eloquent()
+11 APPPATH/Config/Events.php(59): service('eloquent')
+12 SYSTEMPATH/Events/Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+13 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+14 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+16 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+INFO - 2023-11-10 20:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 20:50:11 --> Call to undefined function App\Modules\User\Controllers\tenant_id()
+in APPPATH/Modules/User/Controllers/UserController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Modules\User\Controllers\UserController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Modules\User\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 /Applications/Herd.app/Contents/Resources/valet/server.php(120): require('/Users/rtraselbd/Code/subdomain.project/public/index.php')
+INFO - 2023-11-10 20:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 20:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
